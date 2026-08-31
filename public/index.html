@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AuraCommerce | Modern Lifestyle & Electronics</title>
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/storefront.css">
+  <link rel="stylesheet" href="/css/checkout.css">
+  <link rel="stylesheet" href="/css/admin.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Top Promotion Ticker -->
+  <div class="top-ticker" id="top-ticker">
+    <div class="container ticker-inner">
+      <span>✨ <strong>SUMMER SPECIAL:</strong> Free express shipping on orders over $75 with code <code class="ticker-code">FREESHIP</code></span>
+      <button class="ticker-close" id="ticker-close-btn" aria-label="Close Announcement">&times;</button>
+    </div>
+  </div>
+
+  <!-- Primary Header & Navigation Bar -->
+  <header class="app-header" id="app-header">
+    <!-- Rendered dynamically by navbar.js -->
+  </header>
+
+  <!-- Main View Router Container -->
+  <main id="app-root" class="app-main" role="main">
+    <div class="view-loading-spinner">
+      <div class="spinner-ring"></div>
+      <p>Loading curated experience...</p>
+    </div>
+  </main>
+
+  <!-- Flyout Slide-over Cart Drawer -->
+  <div class="cart-drawer-overlay" id="cart-drawer-overlay"></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Shopping Cart">
+    <!-- Rendered dynamically by cart-drawer.js -->
+  </aside>
+
+  <!-- Universal Modal Dialog Container -->
+  <div class="modal-backdrop" id="modal-backdrop">
+    <div class="modal-dialog" id="modal-dialog">
+      <!-- Rendered dynamically by modal.js -->
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+  <!-- Footer -->
+  <footer class="app-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <div class="brand-logo">
+          <span class="logo-icon">⚡</span>
+          <span class="logo-text">Aura<strong>Commerce</strong></span>
+        </div>
+        <p class="brand-tagline">Architected with precision. Engineered for seamless shopping experiences with zero dependencies.</p>
+        <div class="social-links">
+          <span class="social-pill">Twitter</span>
+          <span class="social-pill">GitHub</span>
+          <span class="social-pill">Discord</span>
+        </div>
+      </div>
+      <div class="footer-links-col">
+        <h4>Shop Categories</h4>
+        <ul id="footer-categories">
+          <li><a href="#/catalog?category=audio-acoustics">Audio & Acoustics</a></li>
+          <li><a href="#/catalog?category=computing-tech">Computing & Tech</a></li>
+          <li><a href="#/catalog?category=wearables-smart-gear">Smart Wearables</a></li>
+          <li><a href="#/catalog?category=apparel-lifestyle">Apparel Essentials</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-col">
+        <h4>Customer Support</h4>
+        <ul>
+          <li><a href="#/account">Track Order</a></li>
+          <li><a href="#/account">Shipping & Returns</a></li>
+          <li><a href="#/account">Privacy & Security</a></li>
+          <li><a href="#/account">Help Center</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-col">
+        <h4>Quick Access</h4>
+        <ul>
+          <li><a href="#/admin">Admin Portal</a></li>
+          <li><a href="#/account">My Account</a></li>
+          <li><a href="#/cart">Shopping Cart</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>&copy; 2026 AuraCommerce Platform. All rights reserved. Zero-dependency standard architecture.</p>
+      <div class="payment-badges">
+        <span class="pay-chip">VISA</span>
+        <span class="pay-chip">Mastercard</span>
+        <span class="pay-chip">Apple Pay</span>
+        <span class="pay-chip">Google Pay</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Core Client Scripts -->
+  <script src="/js/utils.js"></script>
+  <script src="/js/state.js"></script>
+  <script src="/js/api.js"></script>
+  <script src="/js/components/toast.js"></script>
+  <script src="/js/components/modal.js"></script>
+  <script src="/js/components/navbar.js"></script>
+  <script src="/js/components/product-card.js"></script>
+  <script src="/js/components/cart-drawer.js"></script>
+  <script src="/js/views/home-view.js"></script>
+  <script src="/js/views/catalog-view.js"></script>
+  <script src="/js/views/product-view.js"></script>
+  <script src="/js/views/cart-view.js"></script>
+  <script src="/js/views/checkout-view.js"></script>
+  <script src="/js/views/account-view.js"></script>
+  <script src="/js/views/admin-view.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>
