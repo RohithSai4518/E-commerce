@@ -1,0 +1,646 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_001",
+      "name": "System Administrator",
+      "email": "admin@ecommerce.local",
+      "passwordHash": "4b20dcf217fc6237f36a2108afa69330:7e8b557c2f1060f0d94b1ea1870744ed22388cac81fface41bcdaaae5beff03c85ea376558d531ffe76519a1af562d535e404e246e662d08afed4e122b894bcc",
+      "role": "admin",
+      "phone": "+1 (555) 019-2831",
+      "addresses": [
+        {
+          "id": "addr_adm_1",
+          "label": "Headquarters",
+          "street": "100 Innovation Parkway, Suite 400",
+          "city": "San Francisco",
+          "state": "CA",
+          "postalCode": "94105",
+          "country": "US",
+          "isDefault": true
+        }
+      ],
+      "createdAt": "2026-08-31T20:50:09.739Z",
+      "updatedAt": "2026-08-31T20:50:09.740Z"
+    },
+    {
+      "id": "usr_demo_002",
+      "name": "Sarah Jenkins",
+      "email": "sarah.j@example.com",
+      "passwordHash": "354f670e9c4703845d051d42d6a57aad:b9c9e5aa4105f166157947cbd1d8ea1659f322fad346a4cefe766a3b3c1d2636300fff4c74adcedbd98f9b6416aef7e2fce8233d744d6495e8da73126cd277b1",
+      "role": "customer",
+      "phone": "+1 (555) 234-5678",
+      "addresses": [
+        {
+          "id": "addr_usr_1",
+          "label": "Home",
+          "street": "742 Evergreen Terrace",
+          "city": "Seattle",
+          "state": "WA",
+          "postalCode": "98101",
+          "country": "US",
+          "isDefault": true
+        }
+      ],
+      "createdAt": "2026-08-31T20:50:09.741Z",
+      "updatedAt": "2026-08-31T20:50:09.741Z"
+    },
+    {
+      "id": "usr_alex_003",
+      "name": "Alex Rivera",
+      "email": "alex.rivera@example.com",
+      "passwordHash": "354f670e9c4703845d051d42d6a57aad:b9c9e5aa4105f166157947cbd1d8ea1659f322fad346a4cefe766a3b3c1d2636300fff4c74adcedbd98f9b6416aef7e2fce8233d744d6495e8da73126cd277b1",
+      "role": "customer",
+      "phone": "+1 (555) 876-5432",
+      "addresses": [
+        {
+          "id": "addr_usr_2",
+          "label": "Apartment",
+          "street": "450 West 42nd Street, Apt 18B",
+          "city": "New York",
+          "state": "NY",
+          "postalCode": "10036",
+          "country": "US",
+          "isDefault": true
+        }
+      ],
+      "createdAt": "2026-08-31T20:50:09.741Z",
+      "updatedAt": "2026-08-31T20:50:09.741Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_soundmaster_anc",
+      "name": "AeroPulse ANC Wireless Headphones",
+      "slug": "aeropulse-anc-wireless-headphones",
+      "sku": "AP-ANC-01",
+      "category": "cat_audio",
+      "categorySlug": "audio-acoustics",
+      "price": 249.99,
+      "compareAtPrice": 299.99,
+      "rating": 4.8,
+      "reviewCount": 42,
+      "stock": 35,
+      "isFeatured": true,
+      "badge": "Best Seller",
+      "description": "Industry-leading hybrid active noise cancellation paired with custom 40mm beryllium drivers for pristine acoustic clarity. Featuring 45-hour battery life, multi-point Bluetooth 5.3, and ultra-plush memory foam earcups.",
+      "specifications": {
+        "Driver Size": "40mm Beryllium",
+        "Battery Life": "45 Hours (ANC On)",
+        "Connectivity": "Bluetooth 5.3 + 3.5mm Aux",
+        "Weight": "255g",
+        "Warranty": "2 Years Limited"
+      },
+      "tags": [
+        "audio",
+        "wireless",
+        "anc",
+        "headphones",
+        "bluetooth",
+        "premium"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80",
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800&q=80"
+      ],
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Midnight Obsidian",
+          "color": "#1a1a1a",
+          "stock": 20
+        },
+        {
+          "id": "v2",
+          "name": "Lunar Silver",
+          "color": "#e0e0e0",
+          "stock": 15
+        }
+      ],
+      "createdAt": "2026-08-31T20:50:09.744Z",
+      "updatedAt": "2026-08-31T20:50:09.744Z"
+    },
+    {
+      "id": "prod_keychron_pro",
+      "name": "Vortex Pro Wireless Mechanical Keyboard",
+      "slug": "vortex-pro-wireless-mechanical-keyboard",
+      "sku": "VTX-KB-75",
+      "category": "cat_electronics",
+      "categorySlug": "computing-tech",
+      "price": 139.5,
+      "compareAtPrice": 169,
+      "rating": 4.9,
+      "reviewCount": 68,
+      "stock": 22,
+      "isFeatured": true,
+      "badge": "Staff Pick",
+      "description": "A 75% compact hot-swappable gasket-mounted mechanical keyboard built inside a CNC-machined aluminum chassis. Features custom factory-lubed linear switches, south-facing RGB, and QMK/VIA programmable firmware.",
+      "specifications": {
+        "Layout": "75% Compact (82 Keys)",
+        "Switches": "Gateron Oil King Linear (Hot-swap)",
+        "Body": "CNC Anodized Aluminum",
+        "Polling Rate": "1000 Hz",
+        "Battery": "4000mAh Rechargeable"
+      },
+      "tags": [
+        "keyboard",
+        "mechanical",
+        "custom",
+        "rgb",
+        "computing",
+        "hot-swap"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800&q=80",
+        "https://images.unsplash.com/photo-1595225476474-87563907a212?w=800&q=80"
+      ],
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Matte Stealth Black",
+          "color": "#222222",
+          "stock": 12
+        },
+        {
+          "id": "v2",
+          "name": "Retro Industrial Grey",
+          "color": "#888888",
+          "stock": 10
+        }
+      ],
+      "createdAt": "2026-08-31T20:50:09.745Z",
+      "updatedAt": "2026-08-31T20:50:09.745Z"
+    },
+    {
+      "id": "prod_smartwatch_ultra",
+      "name": "Titanium ChronoSmart Ultra Watch",
+      "slug": "titanium-chronosmart-ultra-watch",
+      "sku": "TTC-WCH-09",
+      "category": "cat_wearables",
+      "categorySlug": "wearables-smart-gear",
+      "price": 389,
+      "compareAtPrice": 429,
+      "rating": 4.7,
+      "reviewCount": 31,
+      "stock": 14,
+      "isFeatured": true,
+      "badge": "New Release",
+      "description": "Aerospace-grade grade 5 titanium case paired with sapphire crystal touch glass. Real-time SpO2, ECG, dual-frequency multi-satellite GPS, and 100m water resistance for rugged outdoor expeditions.",
+      "specifications": {
+        "Case Material": "Grade 5 Aerospace Titanium",
+        "Display": "1.43\" AMOLED 1000 nits",
+        "Water Resistance": "10 ATM (100 Meters)",
+        "Battery": "Up to 14 Days Typical Use",
+        "Sensors": "Optical Heart Rate, ECG, Barometer, SpO2"
+      },
+      "tags": [
+        "smartwatch",
+        "fitness",
+        "titanium",
+        "wearables",
+        "gps",
+        "gps-tracker"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80",
+        "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800&q=80"
+      ],
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Carbon Black Strap",
+          "color": "#111111",
+          "stock": 8
+        },
+        {
+          "id": "v2",
+          "name": "Alpine Orange Strap",
+          "color": "#ff6600",
+          "stock": 6
+        }
+      ],
+      "createdAt": "2026-08-31T20:50:09.745Z",
+      "updatedAt": "2026-08-31T20:50:09.745Z"
+    },
+    {
+      "id": "prod_coffee_brewer",
+      "name": "AromaPulse Precision Thermal Coffee Maker",
+      "slug": "aromapulse-precision-thermal-coffee-maker",
+      "sku": "ARP-CF-04",
+      "category": "cat_home",
+      "categorySlug": "smart-home-living",
+      "price": 189.95,
+      "compareAtPrice": null,
+      "rating": 4.6,
+      "reviewCount": 19,
+      "stock": 18,
+      "isFeatured": false,
+      "badge": "",
+      "description": "Specialty Coffee Association (SCA) certified pour-over style brewer with PID temperature control maintained between 195°F–205°F. Double-wall vacuum stainless thermal carafe keeps coffee hot for 6+ hours without burning.",
+      "specifications": {
+        "Capacity": "1.25 Liters (10 Cups)",
+        "Carafe Type": "Vacuum Insulated Stainless Steel",
+        "Brew Time": "6 Minutes for Full Carafe",
+        "Control": "Digital One-Touch LCD + Pre-infusion Bloom"
+      },
+      "tags": [
+        "coffee",
+        "kitchen",
+        "smart-home",
+        "thermal",
+        "specialty-coffee"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=800&q=80"
+      ],
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Brushed Stainless",
+          "color": "#cccccc",
+          "stock": 18
+        }
+      ],
+      "createdAt": "2026-08-31T20:50:09.745Z",
+      "updatedAt": "2026-08-31T20:50:09.745Z"
+    },
+    {
+      "id": "prod_backpack_edc",
+      "name": "Nomad Transit 28L Weatherproof Backpack",
+      "slug": "nomad-transit-28l-weatherproof-backpack",
+      "sku": "NMD-BP-28",
+      "category": "cat_accessories",
+      "categorySlug": "travel-edc",
+      "price": 119,
+      "compareAtPrice": 145,
+      "rating": 4.9,
+      "reviewCount": 54,
+      "stock": 45,
+      "isFeatured": true,
+      "badge": "Popular",
+      "description": "Crafted from high-tenacity 840D Cordura ballistic nylon with weatherproof YKK AquaGuard zippers. Includes a dedicated suspended 16\" MacBook Pro sleeve, hidden passport security pocket, and magnetic chest harness.",
+      "specifications": {
+        "Volume": "28 Liters",
+        "Dimensions": "19.5\" x 12.5\" x 7.5\"",
+        "Material": "840D Recycled Ballistic Cordura",
+        "Laptop Pocket": "Fits up to 16\" Laptops with padding"
+      },
+      "tags": [
+        "travel",
+        "backpack",
+        "edc",
+        "weatherproof",
+        "cordura",
+        "laptop-bag"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80",
+        "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=800&q=80"
+      ],
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Charcoal Shadow",
+          "color": "#333333",
+          "stock": 25
+        },
+        {
+          "id": "v2",
+          "name": "Olive Drab",
+          "color": "#4a5320",
+          "stock": 20
+        }
+      ],
+      "createdAt": "2026-08-31T20:50:09.746Z",
+      "updatedAt": "2026-08-31T20:50:09.746Z"
+    },
+    {
+      "id": "prod_merino_hoodie",
+      "name": "Summit Merino Tech Wool Zip Hoodie",
+      "slug": "summit-merino-tech-wool-zip-hoodie",
+      "sku": "SMT-HD-100",
+      "category": "cat_apparel",
+      "categorySlug": "apparel-lifestyle",
+      "price": 128,
+      "compareAtPrice": null,
+      "rating": 4.7,
+      "reviewCount": 27,
+      "stock": 29,
+      "isFeatured": false,
+      "badge": "",
+      "description": "100% natural 260gsm Australian merino wool blended with elastane for flexible 4-way stretch. Naturally odor-resistant, temperature-regulating, and moisture-wicking for active everyday commute and outdoor trails.",
+      "specifications": {
+        "Material": "95% Superfine 18.5 Micron Merino Wool, 5% Elastane",
+        "Fit": "Athletic Slim Fit",
+        "Features": "Thumbhole cuffs, zippered chest phone slot"
+      },
+      "tags": [
+        "apparel",
+        "merino",
+        "hoodie",
+        "wool",
+        "outdoor",
+        "sustainable"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=800&q=80"
+      ],
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Heather Charcoal / Medium",
+          "color": "#444444",
+          "stock": 10
+        },
+        {
+          "id": "v2",
+          "name": "Heather Charcoal / Large",
+          "color": "#444444",
+          "stock": 12
+        },
+        {
+          "id": "v3",
+          "name": "Deep Navy / Large",
+          "color": "#1a2a3a",
+          "stock": 7
+        }
+      ],
+      "createdAt": "2026-08-31T20:50:09.746Z",
+      "updatedAt": "2026-08-31T20:50:09.746Z"
+    },
+    {
+      "id": "prod_display_4k",
+      "name": "Lumix 32\" 4K UHD Quantum Dot Display",
+      "slug": "lumix-32-4k-uhd-quantum-dot-display",
+      "sku": "LMX-DSP-32",
+      "category": "cat_electronics",
+      "categorySlug": "computing-tech",
+      "price": 549.99,
+      "compareAtPrice": 629.99,
+      "rating": 4.8,
+      "reviewCount": 22,
+      "stock": 8,
+      "isFeatured": true,
+      "badge": "Pro Choice",
+      "description": "Calibrated factory-accurate IPS panel boasting 99% DCI-P3 color gamut, HDR600 certification, USB-C 90W power delivery single-cable hub, and built-in KVM switch for dual workstation environments.",
+      "specifications": {
+        "Resolution": "3840 x 2160 (4K UHD @ 144Hz)",
+        "Panel": "IPS Quantum Dot with Anti-Glare",
+        "Brightness": "600 nits Peak (HDR600)",
+        "Ports": "1x USB-C 90W PD, 2x HDMI 2.1, 1x DP 1.4, 4x USB-A 3.2"
+      },
+      "tags": [
+        "monitor",
+        "display",
+        "4k",
+        "hdr",
+        "computing",
+        "workstation"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=800&q=80"
+      ],
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Standard Ergonomic Stand",
+          "color": "#222222",
+          "stock": 8
+        }
+      ],
+      "createdAt": "2026-08-31T20:50:09.746Z",
+      "updatedAt": "2026-08-31T20:50:09.746Z"
+    },
+    {
+      "id": "prod_earbuds_pro",
+      "name": "AeroPods Pro Spatial Wireless Earbuds",
+      "slug": "aeropods-pro-spatial-wireless-earbuds",
+      "sku": "AP-EP-02",
+      "category": "cat_audio",
+      "categorySlug": "audio-acoustics",
+      "price": 159,
+      "compareAtPrice": 189,
+      "rating": 4.7,
+      "reviewCount": 39,
+      "stock": 50,
+      "isFeatured": false,
+      "badge": "Sale",
+      "description": "Ultra-lightweight ergonomic true-wireless earbuds with adaptive transparency mode, wireless Qi fast charging case, 32-hour total reserve, and IPX7 sweat/waterproof protection.",
+      "specifications": {
+        "Battery": "8 Hours + 24 Hours in Wireless Qi Case",
+        "Water Resistance": "IPX7 Certified",
+        "Microphones": "6 MEMS Beamforming with Wind Shielding"
+      },
+      "tags": [
+        "audio",
+        "earbuds",
+        "wireless",
+        "spatial-audio",
+        "bluetooth"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&q=80"
+      ],
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Gloss Pearl White",
+          "color": "#ffffff",
+          "stock": 30
+        },
+        {
+          "id": "v2",
+          "name": "Matte Space Grey",
+          "color": "#2a2a2a",
+          "stock": 20
+        }
+      ],
+      "createdAt": "2026-08-31T20:50:09.747Z",
+      "updatedAt": "2026-08-31T20:50:09.747Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_audio",
+      "name": "Audio & Acoustics",
+      "slug": "audio-acoustics",
+      "description": "Studio-grade headphones, noise-canceling earbuds, and high-fidelity wireless speakers.",
+      "icon": "🎧",
+      "banner": "/images/banners/audio.jpg",
+      "createdAt": "2026-08-31T20:50:09.742Z",
+      "updatedAt": "2026-08-31T20:50:09.742Z"
+    },
+    {
+      "id": "cat_electronics",
+      "name": "Computing & Tech",
+      "slug": "computing-tech",
+      "description": "Ergonomic mechanical keyboards, 4K HDR displays, and workstation peripherals.",
+      "icon": "💻",
+      "banner": "/images/banners/tech.jpg",
+      "createdAt": "2026-08-31T20:50:09.742Z",
+      "updatedAt": "2026-08-31T20:50:09.742Z"
+    },
+    {
+      "id": "cat_wearables",
+      "name": "Wearables & Smart Gear",
+      "slug": "wearables-smart-gear",
+      "description": "Biometric smartwatches, fitness bands, and augmented lifestyle trackers.",
+      "icon": "⌚",
+      "banner": "/images/banners/wearables.jpg",
+      "createdAt": "2026-08-31T20:50:09.742Z",
+      "updatedAt": "2026-08-31T20:50:09.742Z"
+    },
+    {
+      "id": "cat_apparel",
+      "name": "Apparel & Lifestyle",
+      "slug": "apparel-lifestyle",
+      "description": "Minimalist merino wool essentials, waterproof outerwear, and everyday activewear.",
+      "icon": "👕",
+      "banner": "/images/banners/apparel.jpg",
+      "createdAt": "2026-08-31T20:50:09.743Z",
+      "updatedAt": "2026-08-31T20:50:09.743Z"
+    },
+    {
+      "id": "cat_home",
+      "name": "Smart Home & Living",
+      "slug": "smart-home-living",
+      "description": "Connected ambient lighting, precision coffee brewers, and air purifiers.",
+      "icon": "🏡",
+      "banner": "/images/banners/home.jpg",
+      "createdAt": "2026-08-31T20:50:09.743Z",
+      "updatedAt": "2026-08-31T20:50:09.743Z"
+    },
+    {
+      "id": "cat_accessories",
+      "name": "Travel & Everyday Carry",
+      "slug": "travel-edc",
+      "description": "Ballistic nylon backpacks, RFID-shielded leather wallets, and modular organizers.",
+      "icon": "🎒",
+      "banner": "/images/banners/travel.jpg",
+      "createdAt": "2026-08-31T20:50:09.743Z",
+      "updatedAt": "2026-08-31T20:50:09.743Z"
+    }
+  ],
+  "carts": [
+    {
+      "userId": null,
+      "sessionId": "sess_mi0mlzkjtxmthpqn2u",
+      "items": [
+        {
+          "id": "cc64bb6b-a6e7-4d4a-a4e0-038f8ded8488",
+          "productId": "prod_earbuds_pro",
+          "name": "AeroPods Pro Spatial Wireless Earbuds",
+          "slug": "aeropods-pro-spatial-wireless-earbuds",
+          "sku": "AP-EP-02",
+          "price": 159,
+          "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&q=80",
+          "variantId": "v1",
+          "variantName": "Gloss Pearl White",
+          "quantity": 1
+        }
+      ],
+      "couponCode": null,
+      "shippingMethod": "standard",
+      "id": "cf635011-9b70-4c38-acaa-c1a87a114281",
+      "createdAt": "2026-08-31T20:50:56.319Z",
+      "updatedAt": "2026-08-31T20:51:06.971Z"
+    }
+  ],
+  "orders": [],
+  "reviews": [
+    {
+      "id": "rev_001",
+      "productId": "prod_soundmaster_anc",
+      "userId": "usr_demo_002",
+      "userName": "Sarah Jenkins",
+      "rating": 5,
+      "title": "Best noise cancellation I have ever experienced",
+      "comment": "I take frequent cross-country flights and these cut out airplane engine drone completely. The soundstage is balanced without bloated bass. Battery easily lasted through a full 14-hour travel day with ANC on.",
+      "verifiedPurchase": true,
+      "helpfulVotes": 18,
+      "createdAt": "2026-08-19T20:50:09.747Z",
+      "updatedAt": "2026-08-31T20:50:09.747Z"
+    },
+    {
+      "id": "rev_002",
+      "productId": "prod_soundmaster_anc",
+      "userId": "usr_alex_003",
+      "userName": "Alex Rivera",
+      "rating": 5,
+      "title": "Flawless build quality & comfort",
+      "comment": "The memory foam cushions are so plush I can wear them for 6 hours straight at my desk without ear fatigue. Bluetooth multi-point switching between my laptop and phone is instantaneous.",
+      "verifiedPurchase": true,
+      "helpfulVotes": 9,
+      "createdAt": "2026-08-26T20:50:09.747Z",
+      "updatedAt": "2026-08-31T20:50:09.748Z"
+    },
+    {
+      "id": "rev_003",
+      "productId": "prod_keychron_pro",
+      "userId": "usr_demo_002",
+      "userName": "Sarah Jenkins",
+      "rating": 5,
+      "title": "Incredible acoustic thock right out of the box",
+      "comment": "The factory lubrication on the switches is done perfectly. The aluminum case feels heavy and premium on the desk. VIA remap tool worked without any hassles.",
+      "verifiedPurchase": true,
+      "helpfulVotes": 14,
+      "createdAt": "2026-08-23T20:50:09.747Z",
+      "updatedAt": "2026-08-31T20:50:09.748Z"
+    }
+  ],
+  "coupons": [
+    {
+      "id": "cpn_welcome10",
+      "code": "WELCOME10",
+      "description": "10% discount on your first order over $50",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "minOrderAmount": 50,
+      "maxDiscountAmount": 30,
+      "isActive": true,
+      "usageCount": 14,
+      "maxUsage": 500,
+      "createdAt": "2026-08-31T20:50:09.743Z",
+      "updatedAt": "2026-08-31T20:50:09.743Z"
+    },
+    {
+      "id": "cpn_save20",
+      "code": "SAVE20",
+      "description": "$20 flat discount on orders over $150",
+      "discountType": "fixed",
+      "discountValue": 20,
+      "minOrderAmount": 150,
+      "isActive": true,
+      "usageCount": 42,
+      "maxUsage": 200,
+      "createdAt": "2026-08-31T20:50:09.744Z",
+      "updatedAt": "2026-08-31T20:50:09.744Z"
+    },
+    {
+      "id": "cpn_freeship",
+      "code": "FREESHIP",
+      "description": "Free standard shipping on all items",
+      "discountType": "free_shipping",
+      "discountValue": 100,
+      "minOrderAmount": 25,
+      "isActive": true,
+      "usageCount": 88,
+      "maxUsage": 1000,
+      "createdAt": "2026-08-31T20:50:09.744Z",
+      "updatedAt": "2026-08-31T20:50:09.744Z"
+    },
+    {
+      "id": "cpn_tech50",
+      "code": "TECH50",
+      "description": "$50 instant savings on premium computing workstations",
+      "discountType": "fixed",
+      "discountValue": 50,
+      "minOrderAmount": 300,
+      "isActive": true,
+      "usageCount": 8,
+      "maxUsage": 50,
+      "createdAt": "2026-08-31T20:50:09.744Z",
+      "updatedAt": "2026-08-31T20:50:09.744Z"
+    }
+  ],
+  "audit_logs": []
+}
