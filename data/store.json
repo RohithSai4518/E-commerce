@@ -4,7 +4,7 @@
       "id": "usr_admin_001",
       "name": "System Administrator",
       "email": "admin@ecommerce.local",
-      "passwordHash": "4b20dcf217fc6237f36a2108afa69330:7e8b557c2f1060f0d94b1ea1870744ed22388cac81fface41bcdaaae5beff03c85ea376558d531ffe76519a1af562d535e404e246e662d08afed4e122b894bcc",
+      "passwordHash": "0101b8d58b3461b6afb6315e19710c23:b9207e7ad41e3d168a160c830dd28b55b366006ff43a8f928b9d1a96990dc968491b2b342b4357f3983d37936f208345a218ed50b6265bcfb8211314e46e0597",
       "role": "admin",
       "phone": "+1 (555) 019-2831",
       "addresses": [
@@ -19,14 +19,14 @@
           "isDefault": true
         }
       ],
-      "createdAt": "2026-08-31T20:50:09.739Z",
-      "updatedAt": "2026-08-31T20:50:09.740Z"
+      "createdAt": "2026-08-31T21:08:16.333Z",
+      "updatedAt": "2026-08-31T21:08:16.334Z"
     },
     {
       "id": "usr_demo_002",
       "name": "Sarah Jenkins",
       "email": "sarah.j@example.com",
-      "passwordHash": "354f670e9c4703845d051d42d6a57aad:b9c9e5aa4105f166157947cbd1d8ea1659f322fad346a4cefe766a3b3c1d2636300fff4c74adcedbd98f9b6416aef7e2fce8233d744d6495e8da73126cd277b1",
+      "passwordHash": "4ea9714952f5575f6133c4b78076a820:6b6555f72e497e77850ed0df94fc6edd01fa1ab2640a03807826b4640f319bbe763ca2c780921c8e47119004bf7e9579fe93a234fd7a972b80c7ac24372cb46d",
       "role": "customer",
       "phone": "+1 (555) 234-5678",
       "addresses": [
@@ -41,14 +41,14 @@
           "isDefault": true
         }
       ],
-      "createdAt": "2026-08-31T20:50:09.741Z",
-      "updatedAt": "2026-08-31T20:50:09.741Z"
+      "createdAt": "2026-08-31T21:08:16.335Z",
+      "updatedAt": "2026-08-31T21:08:16.335Z"
     },
     {
       "id": "usr_alex_003",
       "name": "Alex Rivera",
       "email": "alex.rivera@example.com",
-      "passwordHash": "354f670e9c4703845d051d42d6a57aad:b9c9e5aa4105f166157947cbd1d8ea1659f322fad346a4cefe766a3b3c1d2636300fff4c74adcedbd98f9b6416aef7e2fce8233d744d6495e8da73126cd277b1",
+      "passwordHash": "4ea9714952f5575f6133c4b78076a820:6b6555f72e497e77850ed0df94fc6edd01fa1ab2640a03807826b4640f319bbe763ca2c780921c8e47119004bf7e9579fe93a234fd7a972b80c7ac24372cb46d",
       "role": "customer",
       "phone": "+1 (555) 876-5432",
       "addresses": [
@@ -63,8 +63,8 @@
           "isDefault": true
         }
       ],
-      "createdAt": "2026-08-31T20:50:09.741Z",
-      "updatedAt": "2026-08-31T20:50:09.741Z"
+      "createdAt": "2026-08-31T21:08:16.335Z",
+      "updatedAt": "2026-08-31T21:08:16.335Z"
     }
   ],
   "products": [
@@ -116,8 +116,8 @@
           "stock": 15
         }
       ],
-      "createdAt": "2026-08-31T20:50:09.744Z",
-      "updatedAt": "2026-08-31T20:50:09.744Z"
+      "createdAt": "2026-08-31T21:08:16.338Z",
+      "updatedAt": "2026-08-31T21:08:16.338Z"
     },
     {
       "id": "prod_keychron_pro",
@@ -167,8 +167,8 @@
           "stock": 10
         }
       ],
-      "createdAt": "2026-08-31T20:50:09.745Z",
-      "updatedAt": "2026-08-31T20:50:09.745Z"
+      "createdAt": "2026-08-31T21:08:16.339Z",
+      "updatedAt": "2026-08-31T21:08:16.339Z"
     },
     {
       "id": "prod_smartwatch_ultra",
@@ -218,8 +218,8 @@
           "stock": 6
         }
       ],
-      "createdAt": "2026-08-31T20:50:09.745Z",
-      "updatedAt": "2026-08-31T20:50:09.745Z"
+      "createdAt": "2026-08-31T21:08:16.339Z",
+      "updatedAt": "2026-08-31T21:08:16.339Z"
     },
     {
       "id": "prod_coffee_brewer",
@@ -260,8 +260,8 @@
           "stock": 18
         }
       ],
-      "createdAt": "2026-08-31T20:50:09.745Z",
-      "updatedAt": "2026-08-31T20:50:09.745Z"
+      "createdAt": "2026-08-31T21:08:16.339Z",
+      "updatedAt": "2026-08-31T21:08:16.339Z"
     },
     {
       "id": "prod_backpack_edc",
@@ -310,8 +310,8 @@
           "stock": 20
         }
       ],
-      "createdAt": "2026-08-31T20:50:09.746Z",
-      "updatedAt": "2026-08-31T20:50:09.746Z"
+      "createdAt": "2026-08-31T21:08:16.340Z",
+      "updatedAt": "2026-08-31T21:08:16.340Z"
     },
     {
       "id": "prod_merino_hoodie",
@@ -364,8 +364,8 @@
           "stock": 7
         }
       ],
-      "createdAt": "2026-08-31T20:50:09.746Z",
-      "updatedAt": "2026-08-31T20:50:09.746Z"
+      "createdAt": "2026-08-31T21:08:16.340Z",
+      "updatedAt": "2026-08-31T21:08:16.340Z"
     },
     {
       "id": "prod_display_4k",
@@ -407,8 +407,8 @@
           "stock": 8
         }
       ],
-      "createdAt": "2026-08-31T20:50:09.746Z",
-      "updatedAt": "2026-08-31T20:50:09.746Z"
+      "createdAt": "2026-08-31T21:08:16.340Z",
+      "updatedAt": "2026-08-31T21:08:16.340Z"
     },
     {
       "id": "prod_earbuds_pro",
@@ -454,8 +454,8 @@
           "stock": 20
         }
       ],
-      "createdAt": "2026-08-31T20:50:09.747Z",
-      "updatedAt": "2026-08-31T20:50:09.747Z"
+      "createdAt": "2026-08-31T21:08:16.340Z",
+      "updatedAt": "2026-08-31T21:08:16.340Z"
     }
   ],
   "categories": [
@@ -466,8 +466,8 @@
       "description": "Studio-grade headphones, noise-canceling earbuds, and high-fidelity wireless speakers.",
       "icon": "🎧",
       "banner": "/images/banners/audio.jpg",
-      "createdAt": "2026-08-31T20:50:09.742Z",
-      "updatedAt": "2026-08-31T20:50:09.742Z"
+      "createdAt": "2026-08-31T21:08:16.336Z",
+      "updatedAt": "2026-08-31T21:08:16.336Z"
     },
     {
       "id": "cat_electronics",
@@ -476,8 +476,8 @@
       "description": "Ergonomic mechanical keyboards, 4K HDR displays, and workstation peripherals.",
       "icon": "💻",
       "banner": "/images/banners/tech.jpg",
-      "createdAt": "2026-08-31T20:50:09.742Z",
-      "updatedAt": "2026-08-31T20:50:09.742Z"
+      "createdAt": "2026-08-31T21:08:16.336Z",
+      "updatedAt": "2026-08-31T21:08:16.336Z"
     },
     {
       "id": "cat_wearables",
@@ -486,8 +486,8 @@
       "description": "Biometric smartwatches, fitness bands, and augmented lifestyle trackers.",
       "icon": "⌚",
       "banner": "/images/banners/wearables.jpg",
-      "createdAt": "2026-08-31T20:50:09.742Z",
-      "updatedAt": "2026-08-31T20:50:09.742Z"
+      "createdAt": "2026-08-31T21:08:16.336Z",
+      "updatedAt": "2026-08-31T21:08:16.336Z"
     },
     {
       "id": "cat_apparel",
@@ -496,8 +496,8 @@
       "description": "Minimalist merino wool essentials, waterproof outerwear, and everyday activewear.",
       "icon": "👕",
       "banner": "/images/banners/apparel.jpg",
-      "createdAt": "2026-08-31T20:50:09.743Z",
-      "updatedAt": "2026-08-31T20:50:09.743Z"
+      "createdAt": "2026-08-31T21:08:16.337Z",
+      "updatedAt": "2026-08-31T21:08:16.337Z"
     },
     {
       "id": "cat_home",
@@ -506,8 +506,8 @@
       "description": "Connected ambient lighting, precision coffee brewers, and air purifiers.",
       "icon": "🏡",
       "banner": "/images/banners/home.jpg",
-      "createdAt": "2026-08-31T20:50:09.743Z",
-      "updatedAt": "2026-08-31T20:50:09.743Z"
+      "createdAt": "2026-08-31T21:08:16.337Z",
+      "updatedAt": "2026-08-31T21:08:16.337Z"
     },
     {
       "id": "cat_accessories",
@@ -516,35 +516,11 @@
       "description": "Ballistic nylon backpacks, RFID-shielded leather wallets, and modular organizers.",
       "icon": "🎒",
       "banner": "/images/banners/travel.jpg",
-      "createdAt": "2026-08-31T20:50:09.743Z",
-      "updatedAt": "2026-08-31T20:50:09.743Z"
+      "createdAt": "2026-08-31T21:08:16.337Z",
+      "updatedAt": "2026-08-31T21:08:16.337Z"
     }
   ],
-  "carts": [
-    {
-      "userId": null,
-      "sessionId": "sess_mi0mlzkjtxmthpqn2u",
-      "items": [
-        {
-          "id": "cc64bb6b-a6e7-4d4a-a4e0-038f8ded8488",
-          "productId": "prod_earbuds_pro",
-          "name": "AeroPods Pro Spatial Wireless Earbuds",
-          "slug": "aeropods-pro-spatial-wireless-earbuds",
-          "sku": "AP-EP-02",
-          "price": 159,
-          "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&q=80",
-          "variantId": "v1",
-          "variantName": "Gloss Pearl White",
-          "quantity": 1
-        }
-      ],
-      "couponCode": null,
-      "shippingMethod": "standard",
-      "id": "cf635011-9b70-4c38-acaa-c1a87a114281",
-      "createdAt": "2026-08-31T20:50:56.319Z",
-      "updatedAt": "2026-08-31T20:51:06.971Z"
-    }
-  ],
+  "carts": [],
   "orders": [],
   "reviews": [
     {
@@ -557,8 +533,8 @@
       "comment": "I take frequent cross-country flights and these cut out airplane engine drone completely. The soundstage is balanced without bloated bass. Battery easily lasted through a full 14-hour travel day with ANC on.",
       "verifiedPurchase": true,
       "helpfulVotes": 18,
-      "createdAt": "2026-08-19T20:50:09.747Z",
-      "updatedAt": "2026-08-31T20:50:09.747Z"
+      "createdAt": "2026-08-19T21:08:16.341Z",
+      "updatedAt": "2026-08-31T21:08:16.341Z"
     },
     {
       "id": "rev_002",
@@ -570,8 +546,8 @@
       "comment": "The memory foam cushions are so plush I can wear them for 6 hours straight at my desk without ear fatigue. Bluetooth multi-point switching between my laptop and phone is instantaneous.",
       "verifiedPurchase": true,
       "helpfulVotes": 9,
-      "createdAt": "2026-08-26T20:50:09.747Z",
-      "updatedAt": "2026-08-31T20:50:09.748Z"
+      "createdAt": "2026-08-26T21:08:16.341Z",
+      "updatedAt": "2026-08-31T21:08:16.341Z"
     },
     {
       "id": "rev_003",
@@ -583,8 +559,8 @@
       "comment": "The factory lubrication on the switches is done perfectly. The aluminum case feels heavy and premium on the desk. VIA remap tool worked without any hassles.",
       "verifiedPurchase": true,
       "helpfulVotes": 14,
-      "createdAt": "2026-08-23T20:50:09.747Z",
-      "updatedAt": "2026-08-31T20:50:09.748Z"
+      "createdAt": "2026-08-23T21:08:16.341Z",
+      "updatedAt": "2026-08-31T21:08:16.341Z"
     }
   ],
   "coupons": [
@@ -599,8 +575,8 @@
       "isActive": true,
       "usageCount": 14,
       "maxUsage": 500,
-      "createdAt": "2026-08-31T20:50:09.743Z",
-      "updatedAt": "2026-08-31T20:50:09.743Z"
+      "createdAt": "2026-08-31T21:08:16.337Z",
+      "updatedAt": "2026-08-31T21:08:16.337Z"
     },
     {
       "id": "cpn_save20",
@@ -612,8 +588,8 @@
       "isActive": true,
       "usageCount": 42,
       "maxUsage": 200,
-      "createdAt": "2026-08-31T20:50:09.744Z",
-      "updatedAt": "2026-08-31T20:50:09.744Z"
+      "createdAt": "2026-08-31T21:08:16.338Z",
+      "updatedAt": "2026-08-31T21:08:16.338Z"
     },
     {
       "id": "cpn_freeship",
@@ -625,8 +601,8 @@
       "isActive": true,
       "usageCount": 88,
       "maxUsage": 1000,
-      "createdAt": "2026-08-31T20:50:09.744Z",
-      "updatedAt": "2026-08-31T20:50:09.744Z"
+      "createdAt": "2026-08-31T21:08:16.338Z",
+      "updatedAt": "2026-08-31T21:08:16.338Z"
     },
     {
       "id": "cpn_tech50",
@@ -638,8 +614,8 @@
       "isActive": true,
       "usageCount": 8,
       "maxUsage": 50,
-      "createdAt": "2026-08-31T20:50:09.744Z",
-      "updatedAt": "2026-08-31T20:50:09.744Z"
+      "createdAt": "2026-08-31T21:08:16.338Z",
+      "updatedAt": "2026-08-31T21:08:16.338Z"
     }
   ],
   "audit_logs": []
