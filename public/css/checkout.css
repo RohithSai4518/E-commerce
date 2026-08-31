@@ -1,0 +1,210 @@
+/**
+ * AuraCommerce Cart, Checkout & Invoice Styles
+ */
+
+/* --- Slide-Over Cart Drawer --- */
+.cart-drawer-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(9, 9, 11, 0.5);
+  backdrop-filter: blur(2px);
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: all var(--transition-normal);
+}
+
+.cart-drawer-overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.cart-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 440px;
+  background-color: var(--bg-surface);
+  box-shadow: var(--shadow-xl);
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(100%);
+  transition: transform var(--transition-smooth);
+}
+
+.cart-drawer.open {
+  transform: translateX(0);
+}
+
+.cart-drawer-header {
+  padding: var(--space-5) var(--space-6);
+  border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart-drawer-items {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.cart-item-row {
+  display: grid;
+  grid-template-columns: 72px 1fr auto;
+  gap: var(--space-4);
+  align-items: center;
+  padding-bottom: var(--space-4);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.cart-item-img {
+  width: 72px;
+  height: 72px;
+  border-radius: var(--radius-md);
+  object-fit: cover;
+  background: var(--bg-surface-subtle);
+}
+
+.cart-item-details h4 {
+  font-size: 0.95rem;
+  margin-bottom: 2px;
+}
+.cart-item-variant {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+.cart-item-price {
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-top: 4px;
+}
+
+.cart-drawer-footer {
+  padding: var(--space-6);
+  border-top: 1px solid var(--border-subtle);
+  background-color: var(--bg-surface-subtle);
+}
+
+.cart-summary-line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--space-2);
+  font-size: 0.9rem;
+}
+.cart-summary-line.total {
+  font-size: 1.2rem;
+  font-weight: 800;
+  font-family: var(--font-heading);
+  border-top: 1px dashed var(--border-strong);
+  padding-top: var(--space-3);
+  margin-top: var(--space-3);
+}
+
+/* --- Multi-Step Checkout View --- */
+.checkout-container {
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: var(--space-10);
+  margin-top: var(--space-8);
+}
+@media (max-width: 900px) {
+  .checkout-container { grid-template-columns: 1fr; }
+}
+
+.checkout-steps-bar {
+  display: flex;
+  margin-bottom: var(--space-8);
+  gap: var(--space-4);
+}
+.step-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.step-item.active { color: var(--color-accent); }
+.step-item.completed { color: var(--color-success); }
+.step-num {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--bg-surface-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+.step-item.active .step-num {
+  background: var(--color-accent);
+  color: #fff;
+}
+.step-item.completed .step-num {
+  background: var(--color-success);
+  color: #fff;
+}
+
+.checkout-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xl);
+  padding: var(--space-8);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: var(--space-6);
+}
+
+/* Order Confirmation & Receipt */
+.confirmation-hero {
+  text-align: center;
+  padding: var(--space-12) 0;
+}
+.confirm-icon {
+  width: 72px;
+  height: 72px;
+  background: #ecfdf5;
+  color: var(--color-success);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin: 0 auto var(--space-4);
+}
+
+.invoice-box {
+  background: #fff;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: var(--space-8);
+  max-width: 680px;
+  margin: var(--space-6) auto;
+  box-shadow: var(--shadow-md);
+}
+.invoice-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--color-primary);
+  padding-bottom: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+
+@media print {
+  .app-header, .app-footer, .top-ticker, .btn {
+    display: none !important;
+  }
+  .invoice-box {
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    max-width: 100%;
+  }
+}

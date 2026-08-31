@@ -1,0 +1,181 @@
+/**
+ * AuraCommerce Admin Portal & Analytics Dashboard Styles
+ */
+
+.admin-layout {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: var(--space-8);
+  margin-top: var(--space-6);
+}
+@media (max-width: 900px) {
+  .admin-layout { grid-template-columns: 1fr; }
+}
+
+.admin-sidebar {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xl);
+  padding: var(--space-4);
+  height: fit-content;
+}
+
+.admin-nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.admin-nav-btn {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  background: transparent;
+  border: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.admin-nav-btn:hover {
+  background: var(--bg-surface-subtle);
+  color: var(--text-primary);
+}
+
+.admin-nav-btn.active {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+/* KPI Metric Cards Grid */
+.admin-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-4);
+  margin-bottom: var(--space-8);
+}
+@media (max-width: 1100px) {
+  .admin-metrics-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .admin-metrics-grid { grid-template-columns: 1fr; }
+}
+
+.metric-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  display: flex;
+  flex-direction: column;
+}
+
+.metric-title {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: var(--space-2);
+}
+
+.metric-value {
+  font-size: 1.85rem;
+  font-weight: 800;
+  font-family: var(--font-heading);
+  color: var(--text-primary);
+  line-height: 1;
+}
+
+.metric-sub {
+  font-size: 0.8rem;
+  color: var(--color-success);
+  margin-top: var(--space-2);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Analytics SVG Charts */
+.admin-chart-box {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xl);
+  padding: var(--space-6);
+  margin-bottom: var(--space-8);
+}
+
+.chart-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-4);
+}
+
+.svg-chart {
+  width: 100%;
+  height: 240px;
+  overflow: visible;
+}
+
+/* Data Tables */
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.data-table th {
+  background: var(--bg-surface-subtle);
+  padding: var(--space-3) var(--space-4);
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.data-table td {
+  padding: var(--space-3) var(--space-4);
+  border-bottom: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+}
+
+.data-table tr:last-child td {
+  border-bottom: none;
+}
+
+.data-table tr:hover td {
+  background-color: #fafafa;
+}
+
+.status-pill {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.status-pill.processing { background: #eff6ff; color: #1d4ed8; }
+.status-pill.shipped { background: #fdf4ff; color: #a21caf; }
+.status-pill.delivered { background: #ecfdf5; color: #047857; }
+.status-pill.cancelled { background: #fef2f2; color: #b91c1c; }
+.status-pill.pending { background: #fffbeb; color: #b45309; }
